@@ -1,0 +1,38 @@
+baseurl = "https://vishalj0501.github.io/"
+languageCode = "en-us"
+title = "Vishal J"
+theme = "casper"
+paginate = 5
+DisqusShortname = "vj"
+canonifyurls = true
+cover = "/Users/vishu/Desktop/mysite/themes/hugo-theme-casper/images/imgeee.jpeg"
+image = "/Users/vishu/Desktop/mysite/themes/hugo-theme-casper/images/imgeee.jpeg"
+
+[params]
+  description = "Student,Visualizer,Explorer"
+  cover = "/Users/vishu/Desktop/mysite/themes/hugo-theme-casper/images/imgeee.jpeg"
+  image = "/Users/vishu/Desktop/mysite/themes/hugo-theme-casper/images/imgeee.jpeg"
+  bio= "Student, Visualizer"
+
+  githubName = "vishalj0501"
+  twitterName = "Vishal93944050"
+  email="jvishal0501@gmail.com"
+
+  
+  hideHUGOSupport = false
+
+[[menu.main]]
+  name = "Home"
+  weight = 100
+  identifier = "home"
+  url = "/"
+
+
+
+[permalinks]
+  post = "/:slug/"
+
+[sitemap]
+  ChangeFreq = ""
+  Filename = "sitemap.xml"
+  Priority = "-1"
